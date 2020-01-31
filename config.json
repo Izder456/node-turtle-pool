@@ -1,7 +1,7 @@
 {
   "coin": "turtlecoin",
   "symbol": "TRTL",
-  "coinUnits": 100,
+  "coinUnits": 1,
   "coinDifficultyTarget": 30,
   "logging": {
     "files": {
@@ -17,7 +17,7 @@
   "poolServer": {
     "enabled": true,
     "clusterForks": "auto",
-    "poolAddress": "TRTLv3mnq2wS6GepH6nb628jEjFseeojACYToJ1BXaZNNEvLkzW327zTVCh7ncGtS2MU2usGNq9ygVwiCTTft9QkN3t5P2Xqv3f",
+    "poolAddress": "TRTLv3RgNMGbiam59bviaBgfJ1UUpbdWRhW6mvnf2cBZ4qfs1hR2WpS3vSRMEe9AvrQs9EemPJ8FMA4g5Q1fKaGt26YpATAPm1e",
     "blockRefreshInterval": 1000,
     "minerTimeout": 3600,
     "ports": [
@@ -44,8 +44,8 @@
       }
     ],
     "varDiff": {
-      "minDiff": 100,
-      "maxDiff": 500000,
+      "minDiff": 25,
+      "maxDiff": 5000000,
       "targetTime": 10,
       "retargetTime": 30,
       "variancePercent": 30,
